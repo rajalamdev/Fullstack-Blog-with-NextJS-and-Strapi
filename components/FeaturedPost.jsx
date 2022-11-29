@@ -10,13 +10,12 @@ export default function FeaturedPost(props) {
         <div className="relative">
           <Image
             src={process.env.apiUrl + props.thumbnail.data.attributes.url}
-            width={4}
-            height={3}
+            width={3}
+            height={2}
             layout="responsive"
             className="rounded-md"
             priority
             alt="thumbnail"
-            objectFit="cover"
           />
         </div>
       </div>
